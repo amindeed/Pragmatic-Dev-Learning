@@ -25,3 +25,4 @@
         - MAC functions
         - Encrypt content, Making salted hashes
     - Other authentication methods : LDAP (BindDN vs simple auth), MFA.
+    - Use popular frameworks.
