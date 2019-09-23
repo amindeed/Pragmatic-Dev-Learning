@@ -1,37 +1,48 @@
 # Learn-Dev
 
 - **Languages:** Java, JavaScript, HTML/CSS, Python, PHP, C/C++
+<br>
 
 - **Paradigms:**
-    - <u>Structured</u>
+    - <u>**Structured**</u>
         - **C**
         - <u>Object-oriented</u>
             - <u>Class-based</u>: **C++**, **Java**, **PHP**, **Python**
             - <u>Prototype-based</u>: **JavaScript**
-    - <u>Imperative</u>
+    - <u>**Imperative**</u>
     The 1980s saw a rapid growth in interest in object-oriented programming. These languages were imperative in style, but added features to support objects.
-        - <u>??????</u>: **Java**, **Python**, **JavaScript**
-        - <u>Object-oriented</u>:
-        - <u>Procedural</u>: **C**, **C++**, **PHP**
-    - <u>Declarative</u>
-        - **SQL**, **Regex**
-        - <u>Functional</u>: **Javascript**
-        - <u>Functional ???</u>: **C++**, **Java (since version 8)**, **Python**, **PHP?**
-    - <u>Concurrent:</u>
-        - **C/C++:** provide access to the native threading APIs of the operating system.
-        - **Java (using thread class or Runnable interface):** Java fundamentally uses a shared-memory concurrency model, with locking provided by monitors, to coordinate between threads.
+        - **Java**, **PHP**, **Python**, **JavaScript**
+        - <u>Procedural</u>: **C**, **C++**, **Python**, **PHP**
+    - <u>**Declarative**</u>
+        - **SQL**, **Regex**, **config. managment systems (Ansible...)**, **HTML**, **Makefile (hybrid)**
+        - <u>Functional</u>: It is a declarative programming paradigm in that programming is done with expressions or declarations instead of statements.
+        Most popular programming languages are not specifically designed for functional programming.
+        _**Main concepts:** first-class functions, anonymous functions (function literals, lambda abstractions, or lambda expressions) and nested functions, non-local variables and closures, higher-order functions._
+
+        [![functional-prog-langs](/assets/functional-prog-langs.png)](https://en.wikipedia.org/wiki/First-class_function#Language_support)
+
+    - <u>**Concurrent**</u>
+        - **C++:** provide access to the native threading APIs of the operating system (`std::thread`)
+        - **Java (using `thread` class or `Runnable` interface):** Java fundamentally uses a shared-memory concurrency model, with locking provided by monitors, to coordinate between threads.
         - **JavaScript :** via web workers, in a browser environment, promises, and callbacks.
-    - <u>Event-driven</u>: **Javascript** ➜ concurrency
-    - <u>Reflective</u>: **Java**, **ECMAScript (➜ javaScript)**, **PHP**, **Python**
+        - **Python :** with `Twisted`, `greenlet` and `gevent`, or using `Stackless Python`
+    - <u>**Event-driven**</u>: **Javascript** ➜ concurrency
+    - <u>**Reflective**</u>: **Java**, **ECMAScript (➜ javaScript)**, **PHP**, **Python**
+<br>
 
 - **Basic Problems**
     - **[Web]** Basic HTML and CSS (make a cheat-sheet)
+    - Exploring language's type system.
+    - Practicing/Using language's statements and expressions.
     - Using third-party libraries/codes
-    - Language's type system. Implementing some common data structures and algorithms.
-    - Querying and updating databases (MySQL/MariaDB, PostgreSQL, SQLite)
-    - Reading and writing to system file (text and binary files)
+    - Implementing some common data structures and algorithms.
+    - Querying and updating databases using libraries/connectors (MySQL/MariaDB, PostgreSQL, SQLite)
+    - Processing common I/O streams (standard, file, network sockets, memory, buffer, pipes)
+        - Reading and writing to system file (text and binary files)
     - Parsing common text formats (natively or via libraries): serialization formatts (XML, JSON), CSV, key-value pairs (INI, unix config files). Using Regular expressions.
-    - Send/Receive HTTP/HTTPS requests/responses,
+    - Exception handling
+    - Send/Receive HTTP/HTTPS GET/POST requests/responses,
+    - Executing external programs and retrieving output and/or return values.
     - Using third-party APIs [wrappers] : REST[FUL]/JSON
     - **[Web]** Authentication methods : HTTP Basic Auth., OAuth2
     - **[Web]** Sessions, Cookies.
@@ -47,40 +58,21 @@
         - MAC functions
         - Encrypt content, Making salted hashes
     - Other authentication methods : LDAP (BindDN vs simple auth), MFA
-    - Use popular frameworks: Spring MVC/Boot (Java), React (JavaScript), Express.js (JavaScript)
+    - Use popular frameworks: Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap (CSS)
+<br>
 
 - Things to consider when choosing a programming language for web backend
     - Good performance and reliability for heavy-task and mission-critical use cases
     - Stability
     - Being popular, availability of resources (help, forums..)
     - Implementation of modern concepts and trends
+<br>
 
-
-- **Types of programming languages :**
-    - Class-based programming
-    - Concatenative programming language
-    - Concurrent computing
-    - Declarative programming
-    - Domain-specific language
-    - Dynamic programming language
-    - Event-driven programming
-    - Extensible programming
-    - Functional programming
-    - Imperative
-    - Logic programming
-    - Macro (computer science)
-    - Metaprogramming
-    - Multi-paradigm programming language
-    - Object-based language
-    - Object-oriented programming
-    - Procedural programming
-    - Prototype-based programming
-    - Reflection (computer programming)
-    - Rule-based system
-    - Scripting language
-    - Stack-based language
-    - Synchronous programming language
-    - Templating language
+- **Levels of learning :**
+	- **Level 1: _Technology Concepts & Programming languages_**
+	- **Level 2: _Frameworks, Tools & Implementations_**
+	- **Level 3: _Standards & Project Management_**
+<br>
 
 - **Online resources**
     - Breaking into a software engineering career
@@ -91,6 +83,7 @@
         - [The Algorithms](https://github.com/TheAlgorithms)
         - [karan/Projects: A list of practical projects that anyone can solve in any programming language.](https://github.com/karan/Projects)
         - [jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
+    - Check more: https://github.com/amindeed?tab=stars&utf8=%E2%9C%93&utf8=%E2%9C%93&q=&q=interview
 
 
 -------------------------------------------
