@@ -19,7 +19,7 @@
         Most popular programming languages are not specifically designed for functional programming.
         _**Main concepts:** first-class functions, anonymous functions (function literals, lambda abstractions, or lambda expressions) and nested functions, non-local variables and closures, higher-order functions._
 
-        [![functional-prog-langs](/assets/functional-prog-langs.png)](https://en.wikipedia.org/wiki/First-class_function#Language_support)
+        [![functional-prog-langs](assets/functional-prog-langs.png)](https://en.wikipedia.org/wiki/First-class_function#Language_support)
 
     - <u>**Concurrent**</u>
         - **C++:** provide access to the native threading APIs of the operating system (`std::thread`)
