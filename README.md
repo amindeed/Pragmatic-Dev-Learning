@@ -33,24 +33,28 @@
 - **Basic Problems**
     - **[Web]** Basic HTML and CSS (make a cheat-sheet)
     - Exploring language's type system.
-    - Practicing/Using language's statements and expressions.
+    - Exploring language's statements and expressions.
+    - Exploring standard streams (I/O/Err)
     - Using third-party libraries/codes
     - Implementing some common data structures and algorithms.
     - Querying and updating databases using libraries/connectors (MySQL/MariaDB, PostgreSQL, SQLite)
-    - Processing common I/O streams (standard, file, network sockets, memory, buffer, pipes)
-        - Reading and writing to system file (text and binary files)
+    - <u>Exploring streams (1)</u>: Reading and writing to file system (text files)
     - Parsing common text formats (natively or via libraries): serialization formatts (XML, JSON), CSV, key-value pairs (INI, unix config files). Using Regular expressions.
-    - Exception handling
+    - Exception handling.
     - Send/Receive HTTP/HTTPS GET/POST requests/responses,
-    - Executing external programs and retrieving output and/or return values.
-    - Using third-party APIs [wrappers] : REST[FUL]/JSON
+    - Using third-party APIs [wrappers] : REST[FUL]/JSON, Optional: _XML-RPC, SOAP_
+    - **[Web]** Create a basic RESTful API
     - **[Web]** Authentication methods : HTTP Basic Auth., OAuth2
     - **[Web]** Sessions, Cookies.
-    - **[Web]** Client-side storage: localStorage/Web Storage, IndexedDB, Cache.
-    - Send (and retrieve?) emails
-    - TCP/UDP sockets. Client-Server application.
-    - Communicating with local and remote processes/servers. Dev basic service/daemon.
-    - Concurrency (when applicable): threads, processes...
+    - **[Web]** _Optional:_ Client-side storage: localStorage/Web Storage, IndexedDB, Cache.
+    - Send emails
+    - Concurrency (when applicable): _threads, processes, callbacks..._
+    - Executing external (system/third party) programs and retrieving output and/or return values.
+    - <u>Exploring streams (2)</u>:
+        - Network (TCP/UDP sockets. Make a basic client-server application)
+        - Others (when applicable): memory, buffer, pipes, file system (binary file)
+    - Communicating with local and remote processes/servers.
+    - Develop a basic service/daemon program.
     - Cryptography: implement common concepts
         - Implementing/Interacting with classic protocols and programs: SSL/TLS, OpenPGP
         - Hash functions
