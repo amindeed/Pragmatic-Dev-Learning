@@ -38,11 +38,13 @@
     - Using third-party libraries/codes
     - Implementing some common data structures and algorithms.
     - Querying and updating databases using libraries/connectors (MySQL/MariaDB, PostgreSQL, SQLite)
+    - Debugging (1)
     - <u>Exploring streams (1)</u>: Reading and writing to file system (text files)
     - Parsing common text formats (natively or via libraries): serialization formatts (XML, JSON), CSV, key-value pairs (INI, unix config files). Using Regular expressions.
     - Exception handling.
     - Send/Receive HTTP/HTTPS GET/POST requests/responses,
     - Using third-party APIs [wrappers] : REST[FUL]/JSON, Optional: _XML-RPC, SOAP_
+    - Debugging (2)
     - **[Web]** Create a basic RESTful API
     - **[Web]** Authentication methods : HTTP Basic Auth., OAuth2
     - **[Web]** Sessions, Cookies.
@@ -63,9 +65,13 @@
         - Encrypt content, Making salted hashes
     - Other authentication methods : LDAP (BindDN vs simple auth), MFA
     - Use popular frameworks: Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap (CSS)
+    - Skills for collaborative developement projects
+        - Read and modify code written by others.
+        - Working with version control systems: manage merging code changes in a Git environment.
 <br>
 
 - Things to consider when choosing a programming language for web backend
+    - Fast time-to-market
     - Good performance and reliability for heavy-task and mission-critical use cases
     - Stability
     - Being popular, availability of resources (help, forums..)
