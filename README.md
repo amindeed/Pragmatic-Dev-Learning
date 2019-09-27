@@ -1,74 +1,76 @@
 # Learn-Dev
 
-- **Languages:** Java, JavaScript, HTML/CSS, Python, PHP, C/C++
+## Languages:
+Java, JavaScript, HTML/CSS, Python, PHP, C/C++
 <br>
 
-- **Paradigms:**
-    - <u>**Structured**</u>
-        - **C**
-        - <u>Object-oriented</u>
-            - <u>Class-based</u>: **C++**, **Java**, **PHP**, **Python**
-            - <u>Prototype-based</u>: **JavaScript**
-    - <u>**Imperative**</u>
-    The 1980s saw a rapid growth in interest in object-oriented programming. These languages were imperative in style, but added features to support objects.
-        - **Java**, **PHP**, **Python**, **JavaScript**
-        - <u>Procedural</u>: **C**, **C++**, **Python**, **PHP**
-    - <u>**Declarative**</u>
-        - **SQL**, **Regex**, **config. managment systems (Ansible...)**, **HTML**, **Makefile (hybrid)**
-        - <u>Functional</u>: It is a declarative programming paradigm in that programming is done with expressions or declarations instead of statements.
-        Most popular programming languages are not specifically designed for functional programming.
-        _**Main concepts:** first-class functions, anonymous functions (function literals, lambda abstractions, or lambda expressions) and nested functions, non-local variables and closures, higher-order functions._
+## Paradigms:
+- <u>**Structured**</u>
+    - **C**
+    - <u>Object-oriented</u>
+        - <u>Class-based</u>: **C++**, **Java**, **PHP**, **Python**
+        - <u>Prototype-based</u>: **JavaScript**
+- <u>**Imperative**</u>
+The 1980s saw a rapid growth in interest in object-oriented programming. These languages were imperative in style, but added features to support objects.
+    - **Java**, **PHP**, **Python**, **JavaScript**
+    - <u>Procedural</u>: **C**, **C++**, **Python**, **PHP**
+- <u>**Declarative**</u>
+    - **SQL**, **Regex**, **config. managment systems (Ansible...)**, **HTML**, **Makefile (hybrid)**
+    - <u>Functional</u>: It is a declarative programming paradigm in that programming is done with expressions or declarations instead of statements.
+    Most popular programming languages are not specifically designed for functional programming.
+    _**Main concepts:** first-class functions, anonymous functions (function literals, lambda abstractions, or lambda expressions) and nested functions, non-local variables and closures, higher-order functions._
 
-        [![functional-prog-langs](assets/functional-prog-langs.png)](https://en.wikipedia.org/wiki/First-class_function#Language_support)
+    [![functional-prog-langs](assets/functional-prog-langs.png)](https://en.wikipedia.org/wiki/First-class_function#Language_support)
 
-    - <u>**Concurrent**</u>
-        - **C++:** provide access to the native threading APIs of the operating system (`std::thread`)
-        - **Java (using `thread` class or `Runnable` interface):** Java fundamentally uses a shared-memory concurrency model, with locking provided by monitors, to coordinate between threads.
-        - **JavaScript :** via web workers, in a browser environment, promises, and callbacks.
-        - **Python :** with `Twisted`, `greenlet` and `gevent`, or using `Stackless Python`
-    - <u>**Event-driven**</u>: **Javascript** ➜ concurrency
-    - <u>**Reflective**</u>: **Java**, **ECMAScript (➜ javaScript)**, **PHP**, **Python**
+- <u>**Concurrent**</u>
+    - **C++:** provide access to the native threading APIs of the operating system (`std::thread`)
+    - **Java (using `thread` class or `Runnable` interface):** Java fundamentally uses a shared-memory concurrency model, with locking provided by monitors, to coordinate between threads.
+    - **JavaScript :** via web workers, in a browser environment, promises, and callbacks.
+    - **Python :** with `Twisted`, `greenlet` and `gevent`, or using `Stackless Python`
+- <u>**Event-driven**</u>: **Javascript** ➜ concurrency
+- <u>**Reflective**</u>: **Java**, **ECMAScript (➜ javaScript)**, **PHP**, **Python**
 <br>
 
-- **Basic Problems**
-    - **[Web]** Basic HTML and CSS (make a cheat-sheet)
-    - Exploring language's type system.
-    - Exploring language's statements and expressions.
-    - Exploring standard streams (I/O/Err)
-    - Using third-party libraries/codes
-    - Implementing some common data structures and algorithms.
-    - Querying and updating databases using libraries/connectors (MySQL/MariaDB, PostgreSQL, SQLite)
-    - Debugging (1)
-    - <u>Exploring streams (1)</u>: Reading and writing to file system (text files)
-    - Parsing common text formats (natively or via libraries): serialization formatts (XML, JSON), CSV, key-value pairs (INI, unix config files). Using Regular expressions.
-    - Exception handling.
-    - Send/Receive HTTP/HTTPS GET/POST requests/responses,
-    - Using third-party APIs [wrappers] : REST[FUL]/JSON, Optional: _XML-RPC, SOAP_
-    - Debugging (2)
-    - **[Web]** Create a basic RESTful API
-    - **[Web]** Authentication methods : HTTP Basic Auth., OAuth2
-    - **[Web]** Sessions, Cookies.
-    - **[Web]** _Optional:_ Client-side storage: localStorage/Web Storage, IndexedDB, Cache.
-    - Send emails
-    - Concurrency (when applicable): _threads, processes, callbacks..._
-    - Executing external (system/third party) programs and retrieving output and/or return values.
-    - <u>Exploring streams (2)</u>:
-        - Network (TCP/UDP sockets. Make a basic client-server application)
-        - Others (when applicable): memory, buffer, pipes, file system (binary file)
-    - Communicating with local and remote processes/servers.
-    - Develop a basic service/daemon program.
-    - Cryptography: implement common concepts
-        - Implementing/Interacting with classic protocols and programs: SSL/TLS, OpenPGP
-        - Hash functions
-        - Key derivation functions
-        - MAC functions
-        - Encrypt content, Making salted hashes
-    - Other authentication methods : LDAP (BindDN vs simple auth), MFA
-    - Use popular frameworks: Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap (CSS)
-    - Skills for collaborative developement projects
-        - Read and modify code written by others.
-        - Working with version control systems: manage merging code changes in a Git environment.
+## Basic Problems
+- **[Web]** Basic HTML and CSS (make a cheat-sheet)
+- Exploring language's basics: type system, statements and expressions, standard streams (I/O/Err)...
+- Implementing some common data structures and algorithms.
+- Using third-party libraries/codes
+- Querying and updating databases using libraries/connectors (MySQL/MariaDB, PostgreSQL, SQLite)
+- Debugging (1)
+- <u>Exploring streams (1)</u>: Reading and writing to file system (text files)
+- Parsing common text formats (natively or via libraries): serialization formats (XML, JSON), CSV, key-value pairs (INI, unix config files). Using Regular expressions.
+- Exception handling.
+- Send/Receive HTTP/HTTPS GET/POST requests/responses,
+- Using third-party APIs [wrappers] : REST[FUL]/JSON, Optional: _XML-RPC, SOAP_
+- Debugging (2)
+- **[Web]** Create a basic RESTful API
+- **[Web]** Authentication methods : HTTP Basic Auth., OAuth2
+- **[Web]** Sessions, Cookies.
+- **[Web]** _Optional:_ Client-side storage: localStorage/Web Storage, IndexedDB, Cache.
+- Send emails
+- Concurrency (when applicable): _threads, processes, callbacks..._
+- Executing external (system/third party) programs and retrieving output and/or return values.
+- <u>Exploring streams (2)</u>:
+    - Network (TCP/UDP sockets. Make a basic client-server application)
+    - Others (when applicable): memory, buffer, pipes, file system (binary file)
+- Basic inter-process communication (only popular applications)
+- Develop a basic service/daemon program.
+- Cryptography: implement common concepts
+    - Implementing/Interacting with classic protocols and programs: SSL/TLS, OpenPGP
+    - Hash functions
+    - Key derivation functions
+    - MAC functions
+    - Encrypt/Decrypt content, Making salted hashes
+- Other authentication methods : LDAP (BindDN vs simple auth), MFA
+- Use popular frameworks: Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap (CSS)
+- Skills for collaborative developement projects
+    - Read and modify code written by others.
+    - Working with version control systems: _merging code changes in a Git environment_.
 <br>
+
+
+## Misc. notes
 
 - Things to consider when choosing a programming language for web backend
     - Fast time-to-market
