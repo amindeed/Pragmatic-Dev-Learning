@@ -57,11 +57,11 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - <u>Explore streams (2)</u>:
     - Network: _TCP/UDP sockets. Make a basic client-server application._
     - Others (when applicable): _memory, buffer, pipes, file system (binary files)_
-- Use some popular applications of IPC; Create a basic service/daemon (client-service) program.
-    - **Concepts**
-        - Transports, Wrappers, Filters (PHP)
-        - `scheme://target`
+- Interprocess Communications (IPC) and Data Streams:
+    - File (access file and file system meta data)
+    - Files (process content, as streams of characters or bytes)
     - Network sockets (TCP)
+    - Memory-mapped file
     - Message queue
     - Signals
 - Cryptography: implement common concepts
