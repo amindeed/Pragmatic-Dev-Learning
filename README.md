@@ -29,42 +29,50 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
     - **Python :** with `Twisted`, `greenlet` and `gevent`, or using `Stackless Python`
 - <u>**Event-driven**</u>: **Javascript** ➜ concurrency
 - <u>**Reflective**</u>: **Java**, **ECMAScript (➜ javaScript)**, **PHP**, **Python**
+- <u>**Source embeddable**</u>: _Server-side:_ **PHP**; _Client-side:_ **JavaScript**.
 <br>
 
-## Basic Problems
-- **[Web]** Basic HTML and CSS (make a cheat-sheet)
-- Exploring language's basics: type system, statements and expressions, standard streams (I/O/Err)...
-- Implementing some common data structures and algorithms.
-- Using third-party libraries/codes
-- Querying and updating databases using libraries/connectors (MySQL/MariaDB, PostgreSQL, SQLite)
-- Debugging (1)
-- <u>Exploring streams (1)</u>: Reading and writing to file system (text files)
-- Parsing common text formats (natively or via libraries): serialization formats (XML, JSON), CSV, key-value pairs (INI, unix config files). Using Regular expressions.
+## Basic Problems: _Web frontend & backend_
+- **Things to be explored all along:**
+    - Exploring language's basics: _type system, statements and expressions, standard streams (I/O/Err)..._
+    - Implementing some common data structures and algorithms.
+    - Using libraries and third-party code.
+    - Debugging
+- Basic HTML/CSS/JS. _<u>Application</u>: create a comprehensive dynamic form_
+- Query and update a database: _MySQL/MariaDB, PostgreSQL, SQLite_
+- Use Regular Expressions.
+- Read and write to text files.
+- Parse common text formats: _XML, JSON, CSV, INI, unix config files._
 - Exception handling.
 - Send/Receive HTTP/HTTPS GET/POST requests/responses,
-- Using third-party APIs [wrappers] : REST[FUL]/JSON, Optional: _XML-RPC, SOAP_
-- Debugging (2)
-- **[Web]** Create a basic RESTful API
-- **[Web]** Authentication methods : HTTP Basic Auth., OAuth2
-- **[Web]** Sessions, Cookies.
-- **[Web]** _Optional:_ Client-side storage: localStorage/Web Storage, IndexedDB, Cache.
+- Use a RESTFUL API of an external service.
 - Send emails
-- Concurrency (when applicable): _threads, processes, callbacks..._
-- Executing external (system/third party) programs and retrieving output and/or return values.
-- <u>Exploring streams (2)</u>:
-    - Network (TCP/UDP sockets. Make a basic client-server application)
-    - Others (when applicable): memory, buffer, pipes, file system (binary file)
-- Basic inter-process communication (only popular applications)
-- Develop a basic service/daemon program.
+- Implement authentication methods : _HTTP Basic Authentication, OAuth2_
+- Use sessions and cookies.
+- Create a basic RESTful API for a web app.
+- Read from/Write to/Generate common binary file formats: _PDF, Zip, Excel, Word._
+- Implement concurrency (when applicable): _threads, processes, callbacks..._
+- _<u>Optional (Advanced)</u>: Client-side storage: localStorage/Web Storage, IndexedDB, Cache._
+- Execute external programs.
+- <u>Explore streams (2)</u>:
+    - Network: _TCP/UDP sockets. Make a basic client-server application._
+    - Others (when applicable): _memory, buffer, pipes, file system (binary files)_
+- Use some popular applications of IPC; Create a basic service/daemon (client-service) program.
+    - **Concepts**
+        - Transports, Wrappers, Filters (PHP)
+        - `scheme://target`
+    - Network sockets (TCP)
+    - Message queue
+    - Signals
 - Cryptography: implement common concepts
-    - Implementing/Interacting with classic protocols and programs: SSL/TLS, OpenPGP
+    - Classic protocols/programs: SSL/TLS, OpenPGP
     - Hash functions
     - Key derivation functions
     - MAC functions
     - Encrypt/Decrypt content, Making salted hashes
-- Other authentication methods : LDAP (BindDN vs simple auth), MFA
-- Use popular frameworks: Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap (CSS)
-- Skills for collaborative developement projects
+- Implement other authentication methods : _LDAP (BindDN vs simple auth), MFA_
+- Use a popular framework: _Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap/MDL (CSS)_
+- Skills for collaborative developement projects:
     - Read and modify code written by others.
     - Working with version control systems: _merging code changes in a Git environment_.
 <br>
