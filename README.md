@@ -34,9 +34,8 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 
 ## Basic Problems: _Web frontend & backend_
 - **Things to be explored all along:**
-    - Exploring language's basics: _type system, statements and expressions, standard streams (I/O/Err)..._
+    - Practicing (1) _(<u>learn by doing / as you go</u>: solving problems, working on projects)_ in parallel with learning specifications and concepts (2) _(language basics and specifications, Coding best practices, Git and Semantic versioning, from recommended books and/or comprehensive documentations)_. Processes (1) and (2) should be independent from each other.
     - Implementing some common data structures and algorithms.
-    - Using libraries and third-party code.
     - Debugging
 - Basic HTML/CSS/JS. _<u>Application</u>: create a comprehensive dynamic form_
 - Query and update a database: _MySQL/MariaDB, PostgreSQL, SQLite_
@@ -53,16 +52,13 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Read from/Write to/Generate common binary file formats: _PDF, Zip, Excel, Word._
 - Implement concurrency (when applicable): _threads, processes, callbacks..._
 - _<u>Optional (Advanced)</u>: Client-side storage: localStorage/Web Storage, IndexedDB, Cache._
-- Execute external programs.
-- <u>Explore streams (2)</u>:
-    - Network: _TCP/UDP sockets. Make a basic client-server application._
-    - Others (when applicable): _memory, buffer, pipes, file system (binary files)_
-- Interprocess Communications (IPC) and Data Streams:
-    - File (access file and file system meta data)
+- _<u>Optional</u>: Execute external programs._
+- Interprocess Communications (IPC) and Data Streams _(no RPC or advanced distributed computing concepts)_:
+    - File (access file and file system meta-data)
     - Files (process content, as streams of characters or bytes)
     - Network sockets (TCP)
+    - Pipes (named and anonymous)
     - Memory-mapped file
-    - Message queue
     - Signals
 - Cryptography: implement common concepts
     - Classic protocols/programs: SSL/TLS, OpenPGP
@@ -70,10 +66,10 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
     - Key derivation functions
     - MAC functions
     - Encrypt/Decrypt content, Making salted hashes
-- Implement other authentication methods : _LDAP (BindDN vs simple auth), MFA_
+- Implement other authentication methods : _LDAP (BindDN vs simple auth), [SAML] SSO, MFA_
 - Use a popular framework: _Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap/MDL (CSS)_
 - Skills for collaborative developement projects:
-    - Read and modify code written by others.
+    - Run, read and modify code written by others.
     - Working with version control systems: _merging code changes in a Git environment_.
 <br>
 
