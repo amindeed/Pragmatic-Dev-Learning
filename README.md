@@ -71,6 +71,7 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Skills for collaborative developement projects:
     - Run, read and modify code written by others.
     - Working with version control systems: _merging code changes in a Git environment_.
+    - Agile / Scrum concepts.
 <br>
 
 
