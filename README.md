@@ -32,7 +32,7 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - <u>**Source embeddable**</u>: _Server-side:_ **PHP**; _Client-side:_ **JavaScript**.
 <br>
 
-## Basic Problems: _Web frontend & backend_
+## Basic Problems (to be solved progressively): _Web frontend & backend_
 - **Things to be explored all along:**
     - Practicing (1) _(This. <u>Learn by doing / as you go</u>: solving problems, working on projects)_ in parallel with learning specifications and concepts (2) _(language basics and specifications , Coding best practices, Git and Semantic versioning, from recommended books and/or comprehensive documentations)_. Processes (1) and (2) should be independent from each other.
     - Implementing some common data structures and algorithms.
