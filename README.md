@@ -52,6 +52,7 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Read from/Write to/Generate common binary file formats: _PDF, Zip, Excel, Word._
 - Implement concurrency (when applicable): _threads, processes, callbacks..._
 - _<u>Optional (Advanced)</u>: Client-side storage: localStorage/Web Storage, IndexedDB, Cache._
+    - Make a web app that tolerates intermittent connection to backend / is available for offline use.
 - _<u>Optional</u>: Execute external programs._
 - Interprocess Communications (IPC) and Data Streams _(no RPC or advanced distributed computing concepts)_:
     - File (access file and file system meta-data)
