@@ -41,7 +41,7 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Query and update a database: _MySQL/MariaDB, PostgreSQL, SQLite_
 - Use Regular Expressions.
 - Read and write to text files.
-- Parse common text formats: _XML, JSON, CSV, INI, unix config files._
+- Parse common text formats: _XML, JSON, YAML, CSV, INI, unix config files._
 - Exception handling.
 - Send/Receive HTTP/HTTPS GET/POST requests/responses,
 - Use a RESTFUL API of an external service.
