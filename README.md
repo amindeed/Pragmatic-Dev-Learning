@@ -40,17 +40,17 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Basic HTML/CSS/JS. _<u>Application</u>: create a comprehensive dynamic form_
 - Query and update a database: _MySQL/MariaDB, PostgreSQL, SQLite_
 - Use Regular Expressions.
-- Read and write to text files.
-- Parse common text formats: _XML, JSON, YAML, CSV, INI, unix config files._
+- Read and write to a text file.
+- Parse common text formats: _XML, JSON, CSV, INI, unix config files._
 - Exception handling.
 - Send/Receive HTTP/HTTPS GET/POST requests/responses,
 - Use a RESTFUL API of an external service.
 - Send emails
 - Implement authentication methods : _HTTP Basic Authentication, OAuth2_
 - Use sessions and cookies.
-- Create a basic RESTful API for a web app.
 - Read from/Write to/Generate common binary file formats: _PDF, Zip, Excel, Word._
-- Implement concurrency (when applicable): _threads, processes, callbacks..._
+- Implement concurrency concepts (when applicable): _threads, processes, callbacks..._
+- Create a basic RESTful API for a web app.
 - _<u>Optional (Advanced)</u>: Client-side storage: localStorage/Web Storage, IndexedDB, Cache._
     - Make a web app that tolerates intermittent connection to backend / is available for offline use.
 - _<u>Optional</u>: Execute external programs._
@@ -59,23 +59,43 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
     - Files (process content, as streams of characters or bytes)
     - Network sockets (TCP)
     - Pipes (named and anonymous)
-    - Memory-mapped file
+    - Memory-mapped files
     - Signals
 - Cryptography: implement common concepts
-    - Classic protocols/programs: SSL/TLS, OpenPGP
-    - Hash functions
-    - Key derivation functions
-    - MAC functions
-    - Encrypt/Decrypt content, Making salted hashes
+    - ~~Classic protocols/programs: SSL/TLS, OpenPGP~~
+    - ~~Hash functions~~
+    - ~~Key derivation functions~~
+    - ~~MAC functions~~
+    - ~~Encrypt/Decrypt content, Making salted hashes~~
 - Implement other authentication methods : _LDAP (BindDN vs simple auth), [SAML] SSO, MFA_
-- Use a popular framework: _Spring MVC/Boot (Java), React (JavaScript, Frontend), Express.js (JavaScript, Backend), Django (Python), Laravel (PHP), Bootstrap/MDL (CSS)_
+- Use a popular framework: _Spring MVC/Boot (Java), React/Angular (JavaScript, Frontend), Express.js (JavaScript, Backend), Django/Flask (Python), Laravel (PHP), Bootstrap/MDL (CSS)_
 - Skills for collaborative developement projects:
     - Run, read and modify code written by others.
     - Working with version control systems: _merging code changes in a Git environment_.
-    - Agile / Scrum concepts.
+    - Agile / Scrum concepts and practices.
+    - DevOps concepts and practices.
 <br>
+
+## Projects Ideas
+- Compare software using Github repositories data through API :
+    - Number of stars
+    - Size : `(1/repo size) * 100`
+    - Average closed issues : `[(nbr closed) / (nbr open)]*(nbr closed)`
+    - Average commits per day  : `[(nbr commits) / (nbr days since first commit)] * 100`
+    - + Results : _StackOverflow_, _Reddit_, _HackerNews_, _Google_
+    - Visualize
 
 
 ## Misc. notes
 
-[Check: `Misc_Notes.md`](Misc_Notes.md)
+[Check: `Misc_Notes.md`](Misc_Notes.md) :
+- Online resources
+- Tools / Components
+- Projects & Ideas
+- Inspirations
+- Contributions
+- Programming languages (Frameworks, libraries and tools)
+
+## References
+
+- [Java IO Tutorial](http://tutorials.jenkov.com/java-io/index.html)

@@ -2,19 +2,6 @@
 
 ## Misc. notes
 
-- Things to consider when choosing a programming language for web backend
-    - Fast time-to-market
-    - Good performance and reliability for heavy-task and mission-critical use cases
-    - Stability
-    - Being popular, availability of resources (help, forums..)
-    - Implementation of modern concepts and trends
-<br>
-
-- **Levels of learning :**
-	- **Level 1: _Technology Concepts & Programming languages_**
-	- **Level 2: _Frameworks, Tools & Implementations_**
-	- **Level 3: _Standards & Project Management_**
-<br>
 
 - **Online resources**
     - Breaking into a software engineering career
@@ -67,7 +54,7 @@
         - Java
             - [hash.to - url shortener](http://hash.to/index.jsp)
                 - Technologies: Java, Hibernate, Struts2, Urlrewrite, MySQL
-- Projects & Ideas
+- **Projects & Ideas**
     - Inspirations
         - Yahoo! Pipes-like
             - Terminology
@@ -151,7 +138,7 @@
     - HackerNewsFeed
         - Social media (medium) like feed
         - Video category for all videos of channels that have ever been posted on HN
-- Programming languages (Frameworks, libraries and tools)
+- **Programming languages (Frameworks, libraries and tools)**
     - General opinions & testimonials
         - Top languages (2017/2018): Java, JavaScript, Python, C++, C#, C, PHP, [..], Ruby, Go
         - Top back-end languages: Java (EE, Spring), PHP (Symfony, Wordpress, Laravel), SQL, Python, Javascript (Node.JS), C++, [Go]
