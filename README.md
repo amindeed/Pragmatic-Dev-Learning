@@ -57,17 +57,26 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Interprocess Communications (IPC) and Data Streams _(no RPC or advanced distributed computing concepts)_:
     - File (access file and file system meta-data)
     - Files (process content, as streams of characters or bytes)
-    - Network sockets (TCP)
     - Pipes (named and anonymous)
     - Memory-mapped files
     - Signals
-- Cryptography: implement common concepts
-    - ~~Classic protocols/programs: SSL/TLS, OpenPGP~~
-    - ~~Hash functions~~
-    - ~~Key derivation functions~~
-    - ~~MAC functions~~
-    - ~~Encrypt/Decrypt content, Making salted hashes~~
-- Implement other authentication methods : _LDAP (BindDN, simple auth), OpenID Connect, SSO, MFA_
+    - Network sockets (TCP)
+- Using other methods/protocols to communicate to/between remote servcies : _RPC (XML-RPC, SOAP, JSON-RPC, gRPC)_.
+- Data Compression
+- Cryptography:
+    - Symmetric Cryptography
+    	- Block ciphers
+    	- One-way Hash functions
+    	- Key derivation functions
+    	- Message authentication codes (MACs)
+    	- Stream ciphers
+    - Public-key Cryptography
+    	- Major Asymmetric Algorithms
+    	- Digital Signature
+    - Key Protocols/Programs
+    	- SSL/TLS, OpenPGP, SSH
+- Implement other authentication methods : _LDAP (BindDN, simple auth), MFA, OpenID Connect, SSO_
+- Distributed Computing / Messaging
 - Use a popular framework: _Spring MVC/Boot (Java), React/Angular (JavaScript, Frontend), Express.js (JavaScript, Backend), Django/Flask (Python), Laravel (PHP), Bootstrap/MDL (CSS)_
 - Skills for collaborative developement projects:
     - Run/Deploy, read and modify code written by others.
