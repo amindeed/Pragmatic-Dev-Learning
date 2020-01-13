@@ -41,9 +41,9 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Query and update a database: _MySQL/MariaDB, PostgreSQL, SQLite_
 - Use Regular Expressions.
 - Read and write to a text file.
-- Parse common text formats: _XML, JSON, CSV, INI, unix config files._
+- Parse common text formats: _XML, JSON, CSV, INI, Unix config files, YAML._
 - Exception handling.
-- Send/Receive HTTP/HTTPS GET/POST requests/responses,
+- Send/Receive HTTP/HTTPS GET/POST Requests/Responses,
 - Use a RESTFUL API of an external service.
 - Send emails
 - Implement authentication methods : _HTTP Basic Authentication, OAuth2_
@@ -51,7 +51,7 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - Read from/Write to/Generate common binary file formats: _PDF, Zip, Excel, Word._
 - Implement concurrency concepts (when applicable): _threads, processes, callbacks..._
 - Create a basic RESTful API for a web app.
-- _<u>Optional (Advanced)</u>: Client-side storage: localStorage/Web Storage, IndexedDB, Cache._
+- _<u>Optional (Advanced)</u>: Client-side storage / Create a PWA: localStorage/Web Storage, IndexedDB, Cache._
     - Make a web app that tolerates intermittent connection to backend / is available for offline use.
 - _<u>Optional</u>: Execute external programs._
 - Interprocess Communications (IPC) and Data Streams _(no RPC or advanced distributed computing concepts)_:
@@ -67,10 +67,10 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
     - ~~Key derivation functions~~
     - ~~MAC functions~~
     - ~~Encrypt/Decrypt content, Making salted hashes~~
-- Implement other authentication methods : _LDAP (BindDN vs simple auth), [SAML] SSO, MFA_
+- Implement other authentication methods : _LDAP (BindDN, simple auth), OpenID Connect, SSO, MFA_
 - Use a popular framework: _Spring MVC/Boot (Java), React/Angular (JavaScript, Frontend), Express.js (JavaScript, Backend), Django/Flask (Python), Laravel (PHP), Bootstrap/MDL (CSS)_
 - Skills for collaborative developement projects:
-    - Run, read and modify code written by others.
+    - Run/Deploy, read and modify code written by others.
     - Working with version control systems: _merging code changes in a Git environment_.
     - Agile / Scrum concepts and practices.
     - DevOps concepts and practices.
