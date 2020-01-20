@@ -1,10 +1,75 @@
 # Learn-Dev
 
-## Languages:
-Java, JavaScript, HTML/CSS, Python, PHP, C/C++
-<br>
+## 1. Pragmatic Learning : _“Learn It By Doing It!”_
 
-## Paradigms:
+1. **Basic HTML/CSS/JS Application :** create a comprehensive dynamic form
+2. **Query and update a database :** MySQL/MariaDB, PostgreSQL, SQLite
+3. **Use Regular Expressions To Filter/Extract Substrings**
+4. **Use Exception Handling**
+5. **Send/Receive `HTTP/HTTPS` `GET/POST` Requests/Responses**
+6. **Use a RESTFUL API of a third-party service, preferably through an official SDK/Library or a popular wrapper**
+7. **Send emails**
+8. **Use Classic Web Authentication Methods :** `HTTP Basic Authentication, OAuth2`
+9. **Use sessions and cookies to authenticate users; Implement a custom authentication mechanism**
+10. **Implement concurrency concepts (when applicable) :** `threads, processes, callbacks...`
+11. **Create a basic RESTful API for a created web app/service**
+12. **[Optional] Take advantage of client-side storage / Make a PWA :** `localStorage/Web Storage, IndexedDB, Cache`
+13. **Interprocess Communications (IPC) and Data Streams (no RPC or advanced distributed computing concepts) :**
+	- <u>Files</u>
+		- Parse common text and data serialization formats : `HTML, XML, JSON, CSV, INI, Unix config files, YAML`
+		- Process Common binary formats : `PDF, Zip, Excel, Word`
+	- <u>File</u> (access file and file system meta-data)
+	- <u>Network sockets (TCP)</u> : Client-Server Model
+	- <u>Pipes</u> (named and anonymous)
+	- <u>Shared Memory</u>
+	- <u>Signals</u>
+	- <u>Execute external programs / System commands</u>
+14. **Inputs Sanitization and Spambots Prevention for Forms :**
+	- Exclusive/Forced use of HTTPS
+	- Sanitizing and validating input data
+	- Checking HTTP headers (User Agent, HTTP referer…)
+	- Hidden fields, CAPTCHA
+	- Forms with email address fields : _Double Opt-in, check DNS blacklist status and MX records..._
+15. **Using other methods/protocols to communicate to/between remote services :**
+	- `gRPC, JSON-RPC, SOAP, XML-RPC`
+	- [Optional] Message Broking/Queuing (clients) : `MQTT, AMQP`
+16. **Use other authentication methods :** `LDAP (BindDN, simple auth), MFA, OpenID Connect, SSO`
+17. **Use Popular Lossless Data Compression Algorithms :** `Deflate[64], BZip2, LZMA[2], Brotli, Zstandard`
+18. **Cryptography : Implement Common Concepts Either Natively or Using Libraries :**
+	- **_Symmetric :_**
+		- <u>Block ciphers</u>
+			- `AES/Rijindael, Twofish, Blowfish, 3DES`
+			- Common Modes Of Operation : `CBC, CTR`
+		- <u>Cryptographic Hash functions (Unkeyed) :</u> `SHA-2 (SHA-256, SHA-512), RIPEMD-160, MD5`
+		- <u>Key derivation functions</u>
+			- Password Hashing / Key Stretching Algorithms : `Argon2, scrypt, bcrypt, PBKDF2`
+		- <u>Message authentication codes (MACs)</u> (Symmetric Authentication)
+			- Keyed hash function based
+				- `HMAC, SipHash`
+				- Universal hash based : `ChaCha20-Poly1305, Poly1305-AES, UMAC`
+			- Block cipher based : `OMAC/CMAC, PMAC`
+		- <u>Stream ciphers</u>
+			- Common ciphers : `RC4, block ciphers in stream mode, ChaCha[20]`
+			- eSTREAM Portfolio (Software) : `HC-128/-256, Rabbit, Salsa20/12, SOSEMANUK`
+	- **_Public-key :_**
+		- <u>Major Asymmetric Algorithms</u>
+			- Integer factorization : `RSA`
+			- Discrete logarithm : `DSA, ElGamal, ECC (ECDH)`
+		- <u>Digital Signature</u> (Asymmetric Authentication) : `DSA, ECC (ECDSA, EdDSA), ElGamal Signature Scheme, RSA-based signature schemes`
+	- **_Popular Protocols/Programs :_** `SSL/TLS, OpenPGP, SSH`
+- **∞. Advanced :**
+    - Learn about topics that will potentially shape the future of software and computing, and practice as much as you can :
+    	- Data Science
+    	- Machine Learning
+    	- IoT
+    	- Artificial Intelligence (AI)
+    	- Quantum Computing
+    	- Blockchain
+
+## 2. _“Learn As You Go!”_
+### 2.1. Languages Basics and Specifications
+#### 2.2. Understanding Common Programming Paradigms
+
 - <u>**Structured**</u>
     - **C**
     - <u>Object-oriented</u>
@@ -32,57 +97,34 @@ The 1980s saw a rapid growth in interest in object-oriented programming. These l
 - <u>**Source embeddable**</u>: _Server-side:_ **PHP**; _Client-side:_ **JavaScript**.
 <br>
 
+
+
+### 3.2. Implementing common algorithms, along with data structures and serialization
+### 3.3. Debugging and Profiling
+## 4. Design
+### 4.1. Common Software Design Patterns
+- **MVC**
+### 4.2. Database Design
+## 5. Best Practices
+### 5.1. Coding Conventions
+### 5.2. Collaborative Development Guidelines
+### 5.3. Follow The 12-Factor App Methodology
+
+
+_Refactoring `README.md`_
+-----------------------------------------------------------------------
+_Old content_
+
+
+
+## Languages:
+Java, JavaScript, HTML/CSS, Python, PHP, [C/C++]
+<br>
+
 ## Basic Problems (to be solved progressively): _Web frontend & backend_
-- **Things to be explored all along:**
-    - Practicing (1) _(This. <u>Learn by doing / as you go</u>: solving problems, working on projects)_ in parallel with learning specifications and concepts (2) _(language basics and specifications , Coding best practices, Git and Semantic versioning, from recommended books and/or comprehensive documentations)_. Processes (1) and (2) should be independent from each other.
-    - Implementing some common data structures and algorithms.
-    - Debugging
-- Basic HTML/CSS/JS. _<u>Application</u>: create a comprehensive dynamic form_
-- Query and update a database: _MySQL/MariaDB, PostgreSQL, SQLite_
-- Use Regular Expressions.
-- Read and write to a text file.
-- Parse common text formats: _XML, JSON, CSV, INI, Unix config files, YAML._
-- Exception handling.
-- Send/Receive HTTP/HTTPS GET/POST Requests/Responses,
-- Use a RESTFUL API of an external service.
-- Send emails
-- Implement authentication methods : _HTTP Basic Authentication, OAuth2_
-- Use sessions and cookies.
-- Read from/Write to/Generate common binary file formats: _PDF, Zip, Excel, Word._
-- Implement concurrency concepts (when applicable): _threads, processes, callbacks..._
-- Create a basic RESTful API for a web app.
-- _<u>Optional (Advanced)</u>: Client-side storage / Create a PWA: localStorage/Web Storage, IndexedDB, Cache._
-    - Make a web app that tolerates intermittent connection to backend / is available for offline use.
-- _<u>Optional</u>: Execute external programs._
-- Interprocess Communications (IPC) and Data Streams _(no RPC or advanced distributed computing concepts)_:
-    - File (access file and file system meta-data)
-    - Files (process content, as streams of characters or bytes)
-    - Pipes (named and anonymous)
-    - Memory-mapped files
-    - Signals
-    - Network sockets (TCP)
-- Using other methods/protocols to communicate to/between remote servcies : _RPC (XML-RPC, SOAP, JSON-RPC, gRPC)_.
-- Data Compression
-- Cryptography:
-    - Symmetric Cryptography
-    	- Block ciphers
-    	- One-way Hash functions
-    	- Key derivation functions
-    	- Message authentication codes (MACs)
-    	- Stream ciphers
-    - Public-key Cryptography
-    	- Major Asymmetric Algorithms
-    	- Digital Signature
-    - Key Protocols/Programs
-    	- SSL/TLS, OpenPGP, SSH
-- Implement other authentication methods : _LDAP (BindDN, simple auth), MFA, OpenID Connect, SSO_
-- Distributed Computing / Messaging
-- Use a popular framework: _Spring MVC/Boot (Java), React/Angular (JavaScript, Frontend), Express.js (JavaScript, Backend), Django/Flask (Python), Laravel (PHP), Bootstrap/MDL (CSS)_
-- Skills for collaborative developement projects:
-    - Run/Deploy, read and modify code written by others.
-    - Working with version control systems: _merging code changes in a Git environment_.
-    - Agile / Scrum concepts and practices.
-    - DevOps concepts and practices.
+
+
+
 <br>
 
 ## Projects Ideas
