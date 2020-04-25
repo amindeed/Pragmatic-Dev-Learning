@@ -3,6 +3,12 @@
 ## Misc. notes
 
 
+- [Note moved from _Gmail AutoResponder_ repository ] I have given up the idea of making a "client-only app" and interact directly with Apps Script backend with a plain HTML5 file that could even be stored locally, as it seems that it's a good practice to implement a minimal sever-side authentication logic [https://stackoverflow.com/q/18280827/3208373] , [https://security.stackexchange.com/a/52886/37487]
+    - "...the JavaScript app is just plain old HTML and JS served from the same server to avoid XSS issues." [source](https://security.stackexchange.com/questions/19620/securing-a-javascript-single-page-app-with-restful-backend#comment32548_19625)
+    - Pros and some Cons of server side rendering (SSR). Topic focuses a little bit on Vue.JS, but it's fairly generic : [Vue SSR Guide | Vue.js Server-Side Rendering Guide](https://ssr.vuejs.org/#what-is-server-side-rendering-ssr)
+    - [oauth - Security drawbacks for using short-lived access token in javascript client side - Information Security Stack Exchange](https://security.stackexchange.com/questions/13618/security-drawbacks-for-using-short-lived-access-token-in-javascript-client-side)
+    - "...use 2-legged or 3-legged OAuth on the REST back end?"
+
 - **Online resources**
     - Breaking into a software engineering career
         - [kdn251/interviews: Everything you need to know to get the job.](https://github.com/kdn251/interviews)
