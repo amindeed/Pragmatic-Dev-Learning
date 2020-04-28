@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<!-- Main reference : https://alfonsoml.blogspot.com/2012/04/placeholder-text-in-ckeditor.html -->
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <title>CKEditor 4 - Textarea with Placeholder text</title>
+  <script src="https://cdn.ckeditor.com/4.14.0/full/ckeditor.js"></script>
+  <script>
+	//CKEDITOR.plugins.addExternal( 'confighelper', '/plugins/confighelper', 'plugin.js' );
+  </script>
+</head>
+
+<body>
+    <textarea cols="80" id="msgbody" name="msgbody" rows="10" placeholder="Type your text here.."></textarea>
+  
+    <script>
+        CKEDITOR.plugins.addExternal( 'confighelper', 'https://martinezdelizarrondo.com/ckplugins/confighelper/' );
+
+        var config = {
+          extraPlugins: 'confighelper',
+          toolbarGroups: [
+            { "name": "clipboard", "groups": [ "undo" ] },
+            { "name": "styles", "groups": [ "styles" ] },
+            { "name": "basicstyles", "groups": ["basicstyles"] },
+            { "name": "colors", "groups": [ "colors" ] },
+            { "name": "paragraph", "groups": ["list", "blocks", "indent"] },
+            { "name": "links", "groups": ["links"] },
+            { "name": "documents", "groups": ["mode"] }
+          ],
+          removeButtons: 'Strike,Subscript,Superscript,Anchor,Styles,Specialchar,PasteFromWord,PasteText,Paste,Copy,Cut,CreateDiv,FontSize'
+        };
+
+        CKEDITOR.replace('msgbody', config);
+    </script>
+
+</body>
+
+</html>
