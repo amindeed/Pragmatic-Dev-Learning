@@ -8,3 +8,4 @@
 - Ideally, we should be building and enhancing one final software product, as we go through the “Pragmatic Learning” program.
 - It wasn't actually intentional, but now that I've noticed it, I'm glad that this project somehow embraces the "continuous delivery" approach..
 - How to make your web app work offline - https://news.ycombinator.com/item?id=22517162
+- The goal is basically to create a set of reusable code snippets.
