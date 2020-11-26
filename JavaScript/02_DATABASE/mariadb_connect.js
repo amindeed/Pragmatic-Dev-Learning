@@ -4,7 +4,7 @@
 // Mock data (`MOCK_DATA.csv`) generated using Mockaroo (https://www.mockaroo.com/)
 
 /*
-Connect to a MariaDB database using MariaDB Node.js connector
+Connect to a MySQL/MariaDB database using MariaDB Node.js connector
 https://www.npmjs.com/package/mariadb
 */
 

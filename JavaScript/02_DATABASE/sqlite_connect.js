@@ -30,11 +30,6 @@ db.serialize(function() {
    });
 });
 
-db.close((err) => {
-  if (err) {
-    console.error(err.message);
-    console.log('Database connection has not been closed gracefully.');
-    return;
-  }
+db.close(() => {
   console.log('Close SQLite database connection.');
 });

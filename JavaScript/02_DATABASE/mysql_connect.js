@@ -4,7 +4,7 @@
 // Mock data (`MOCK_DATA.csv`) generated using Mockaroo (https://www.mockaroo.com/)
 
 /*
-Connect to a MariaDB database using the Node.js driver for MySQL :
+Connect to a MySQL/MariaDB database using the Node.js driver for MySQL :
 https://www.npmjs.com/package/mysql
 */
 
@@ -20,8 +20,6 @@ var connection = mysql.createConnection({
     port: '3306',
 });
 
-
-
 connection.connect(function(err) {
   if (err) {
     console.log('Not connected to MySQL database.')
@@ -33,26 +31,15 @@ connection.connect(function(err) {
   connection.query('SELECT * FROM ' + process.env.DB_TABLE, function(err, rows, fields) {
       if (err) {
         console.error(err.message);
-        connection.end((err) => {
-          if (err) {
-            console.error(err.message);
-            console.log('Database connection has not been closed gracefully.');
-            return;
-          }
+        connection.end(() => {
           console.log('Close MySQL database connection.');
         });
+        return;
       }
 
-      if (rows) {
-        console.log(rows);
-        connection.end((err) => {
-          if (err) {
-            console.error(err.message);
-            console.log('Database connection has not been closed gracefully.');
-            return;
-          }
+      console.log(rows);
+      connection.end(() => {
           console.log('Close MySQL database connection.');
-        });
-      }
+      });
   });
 });
