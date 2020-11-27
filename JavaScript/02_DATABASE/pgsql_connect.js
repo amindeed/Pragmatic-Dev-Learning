@@ -20,9 +20,8 @@ const client = new Client({
 
 client.connect(function(err) {
     if (err) {
-        console.log('Not connected to PostgreSQL database.')
         console.error(err.message);
-        return;
+        return console.log('Not connected to PostgreSQL database.');
     }
     console.log('Connected to PostgreSQL DB');
 

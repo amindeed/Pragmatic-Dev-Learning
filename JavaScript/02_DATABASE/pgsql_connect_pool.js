@@ -21,7 +21,42 @@ const pool = new Pool({
     port: 5432,
 })
 
-pool.query('SELECT * FROM public.' + process.env.DB_TABLE, (err, res) => {
-  console.log(err, res)
-  pool.end()
+pool.connect((err, client, release) => {
+  if (err) {
+    console.error(err.message);
+    console.log('Not connected to PostgreSQL DB.');
+    pool.end(() => {
+        console.log('Pool ended.');
+    });
+    return;
+  }
+  client.query('SELECT * FROM public.' + process.env.DB_TABLE, (err, result) => {
+
+    var idleClientsBeforeRelease = pool.idleCount;
+    release();
+    if ( idleClientsBeforeRelease < pool.idleCount ) {
+        console.log('Client released to pool.');
+    } else {
+        console.log('Client not released to pool.');
+    }
+
+    if (err) {
+      console.error(err.message);
+      console.log('Error executing SQL query.');
+      pool.end(() => {
+          console.log('Pool ended after failing to execute query.');
+      });
+      return;
+    }
+    console.log(result.rows);
+    pool.end(() => {
+        console.log('Pool ended after showing results.');
+    });
+  })
 })
+
+/*
+pool.on('connect', client => {
+  client.query('SET DATESTYLE = iso, mdy')
+})
+*/

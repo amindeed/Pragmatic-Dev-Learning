@@ -29,17 +29,37 @@ pool.getConnection()
         console.log('Connected to MariaDB.');
         conn.query('SELECT * FROM ' + process.env.DB_TABLE)
             .then(rows => {
-                console.log(rows);
                 conn.release();
-                console.log('Close MariaDB connection');
+                console.log(rows);
+                console.log('Connection to MariaDB released to pool.');
+                pool.end()
+                    .then(() => {
+                        console.log("Pool and all underlying connections closed gracefully.")
+                    })
+                    .catch(err => {
+                        console.error(err.message);
+                        console.log('Pool have not been ended properly.');
+                    });
             })
             .catch(err => {
-                console.error(err.message);
                 conn.release();
-                console.log('Close MariaDB connection');
+                console.error(err.message);
+                console.log('Connection to MariaDB released to pool.');
+                pool.end()
+                    .then(() => {
+                        console.log("Pool and all underlying connections closed gracefully.")
+                    })
+                    .catch(err => {
+                        console.error(err.message);
+                        console.log('Pool have not been ended properly.');
+                    });
             })
 
     }).catch(err => {
         console.error(err.message);
         console.log('Not connected to MariaDB database.');
+        pool.end()
+            .then(() => {
+                console.log("Pool ended.")
+            });
     });
