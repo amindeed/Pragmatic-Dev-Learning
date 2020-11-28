@@ -30,6 +30,9 @@ pool.connect((err, client, release) => {
     });
     return;
   }
+
+  console.log('Connected to PostgreSQL Database.');
+
   client.query('SELECT * FROM public.' + process.env.DB_TABLE, (err, result) => {
 
     var idleClientsBeforeRelease = pool.idleCount;
@@ -48,12 +51,14 @@ pool.connect((err, client, release) => {
       });
       return;
     }
+
     console.log(result.rows);
     pool.end(() => {
-        console.log('Pool ended after showing results.');
+        console.log('Pool ended after showing query result.');
     });
   })
 })
+
 
 /*
 pool.on('connect', client => {
