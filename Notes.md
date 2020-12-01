@@ -1,0 +1,102 @@
+
+# General Notes
+
+- Project choices are pretty opinionated
+- “Pragmatic Learning” covers the technical skills that make you immediatly productive, that let you ship a working/useful code, serving a specific need, no matter how simple/basic it is.
+- At the end of each stage of the “Pragmatic Learning” program, we should get a working software prototype with reusable code. That would serve as a technical building block for larger projects.
+- Ideally, we should be building and enhancing one final software product, as we go through the “Pragmatic Learning” program.
+- It wasn't actually intentional, but now that I've noticed it, I'm glad that this project somehow embraces the "continuous delivery" approach..
+- How to make your web app work offline - https://news.ycombinator.com/item?id=22517162
+- The goal is basically to create a set of reusable code snippets.
+
+## Misc. notes
+
+- [Note moved from _Gmail AutoResponder_ repository ] I have given up the idea of making a "client-only app" and interact directly with Apps Script backend with a plain HTML5 file that could even be stored locally, as it seems that it's a good practice to implement a minimal sever-side authentication logic [https://stackoverflow.com/q/18280827/3208373] , [https://security.stackexchange.com/a/52886/37487]
+    - "...the JavaScript app is just plain old HTML and JS served from the same server to avoid XSS issues." [source](https://security.stackexchange.com/questions/19620/securing-a-javascript-single-page-app-with-restful-backend#comment32548_19625)
+    - Pros and some Cons of server side rendering (SSR). Topic focuses a little bit on Vue.JS, but it's fairly generic : [Vue SSR Guide | Vue.js Server-Side Rendering Guide](https://ssr.vuejs.org/#what-is-server-side-rendering-ssr)
+    - [oauth - Security drawbacks for using short-lived access token in javascript client side - Information Security Stack Exchange](https://security.stackexchange.com/questions/13618/security-drawbacks-for-using-short-lived-access-token-in-javascript-client-side)
+    - "...use 2-legged or 3-legged OAuth on the REST back end?"
+
+- <u>**Online resources**</u>
+    - Breaking into a software engineering career
+        - [kdn251/interviews: Everything you need to know to get the job.](https://github.com/kdn251/interviews)
+        - [10 Interview Questions Every JavaScript Developer Should Know](https://medium.com/javascript-scene/10-interview-questions-every-javascript-developer-should-know-6fa6bdf5ad95)
+        - [JavaScript Training Sucks – JavaScript Scene – Medium](https://medium.com/javascript-scene/javascript-training-sucks-284b53666245)
+    - Algorithms & Data structures
+        - [The Algorithms](https://github.com/TheAlgorithms)
+        - [karan/Projects: A list of practical projects that anyone can solve in any programming language.](https://github.com/karan/Projects)
+        - [jwasham/coding-interview-university: A complete computer science study plan to become a software engineer.](https://github.com/jwasham/coding-interview-university)
+    - Check more: https://github.com/amindeed?tab=stars&utf8=%E2%9C%93&utf8=%E2%9C%93&q=&q=interview
+    - **Java Learning resources**
+        - Java Certification
+            - Exams / Certifications
+                - Java SE 8 Programmer I 1Z0-808 (150 min, 70 Q, 65%) ➜ Oracle Certified Associate, Java SE 8 Programmer: http://j.mp/2uGoSDh
+                - Java SE 8 Programmer II 1Z0-809 (150 min, 85 Q, 65%) ➜ Oracle Certified Professional, Java SE 8 Programmer: http://j.mp/2uFbKy8
+            - Prep. Books
+                - [OCA: Oracle Certified Associate Java SE 8 Programmer I Study Guide: Exam 1Z0-808 (432 pages)](http://j.mp/2uMRfQj)
+                - [OCP: Oracle Certified Professional Java SE 8 Programmer II Study Guide: Exam 1Z0-809 (720 pages)](http://j.mp/2uFbuza)
+                - [OCA / OCP Java SE 8 Programmer Certification Kit: Exam 1Z0-808 and Exam 1Z0-809 (1152 pages)](http://j.mp/2uE79wi)
+        - Books
+            - [Intro to Java Programming, Comprehensive Version (10th Edition)](https://www.amazon.com/Intro-Java-Programming-Comprehensive-Version/dp/0133761312/ref=sr_1_16?s=books&ie=UTF8&qid=1518730523&sr=1-16&keywords=java)
+            - [Introduction to Java Programming: Brief Version, 10th Edition](https://www.amazon.com/Introduction-Java-Programming-Brief-Version/dp/0133592200/ref=sr_1_17?s=books&ie=UTF8&qid=1518730523&sr=1-17&keywords=java)
+            - [Spring in Action: Covers Spring 4](https://www.amazon.com/Spring-Action-Covers-4/dp/161729120X/ref=sr_1_46?s=books&ie=UTF8&qid=1518728927&sr=1-46&keywords=spring)
+            - [Spring Recipes: A Problem-Solution Approach](https://www.amazon.com/Spring-Recipes-Problem-Solution-Marten-Deinum/dp/1430259086/ref=sr_1_58?s=books&ie=UTF8&qid=1518728945&sr=1-58&keywords=spring)
+        - Popular/featured frameworks (as of 2017-2018)
+            - Oracle's
+                - JAX-RS (Java EE)
+                    - Jersey (shipped with GlassFish and Payara)
+                    - RESTEasy (shipped with JBoss EAP and WildFly)
+            - Spring
+                - [Getting Started · Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
+                - [spring-boot-starter-jersey](http://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-developing-web-applications.html#boot-features-jersey)
+            - Spring (Spring MVC, Spring Boot, Spring Integration, Spring Security and others)
+            - Java EE (JSF, JAX-RS, CDI, JPA, etc)
+            - GWT, Vaadin
+            - Play (via a plugin)
+            - Thymeleaf, Freemarker, Velocity, Tapestry
+            - Struts, AspectJ, JBoss Seam, OSGI
+            - JVM/Client-side: Swing, JavaFX
+            - Android
+        - [javaee/tutorial: The Java EE Tutorial](https://github.com/javaee/tutorial)
+        - [javaee-samples/javaee7-samples](https://github.com/javaee-samples/javaee7-samples)
+        - <u>Android</u>
+            - [android10/Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
+            - [JackyAndroid / AndroidInterview-Q-A ](https://github.com/JackyAndroid/AndroidInterview-Q-A)
+
+- **Tools / Components / Libraries**
+    - OTP
+        - [GitHub - RobThree/TwoFactorAuth](https://github.com/RobThree/TwoFactorAuth)
+        - [GitHub - multiOTP/multiotp](https://github.com/multiOTP/multiotp)
+        - [GitHub - Spomky-Labs/otphp](https://github.com/Spomky-Labs/otphp)
+    - User Authentication
+        - [GitHub - bitly/oauth2_proxy](https://github.com/bitly/oauth2_proxy)
+        - [GitHub - teesloane/Auth-Boss](https://github.com/teesloane/Auth-Boss)
+        - [GitHub - opauth/opauth](https://github.com/opauth/opauth)
+        - [GitHub - panique/huge](https://github.com/panique/huge#live-demo)
+    - [AlDanial/cloc](https://github.com/AlDanial/cloc)
+        - Example 1: 'cloc TaskBoard --exclude-dir=lib,vendor'
+        - Example 2: 'cloc.exe "iTop-2.4.1-3714_SourceCodeFolder"'
+    - [sj26/mailcatcher: Catches mail and serves it through a dream.](https://github.com/sj26/mailcatcher)
+    - [mailcheck/mailcheck](https://github.com/mailcheck/mailcheck)
+    - [djfarrelly/MailDev: SMTP Server + Web Interface for viewing and testing emails during development.](https://github.com/djfarrelly/MailDev)
+    - [zurb/foundation-emails](https://github.com/zurb/foundation-emails)
+    - [mailchimp/email-blueprints](https://github.com/mailchimp/email-blueprints)
+    - [niftylettuce/gulp-aws-splash](https://github.com/niftylettuce/gulp-aws-splash)
+    - [mailcheck/mailcheck](https://github.com/mailcheck/mailcheck)
+    - [buaazp/zimg](https://github.com/buaazp/zimg)
+    - [Launch4j Executable Wrapper](https://sourceforge.net/projects/launch4j/)
+    - Serverless & Storage Abstraction technologies (Distributed Computing)
+        - [CloudBoost/cloudboost: One Complete Serverless Platform for the next web. Add Storage, Real time, Search, Notifications, Auth and more with one simple API.](https://github.com/CloudBoost/cloudboost)
+    - File system Abstraction
+        - [thephpleague/flysystem (PHP): S3 supported](https://github.com/thephpleague/flysystem)
+    - [remoteStorage ‒ An open protocol for per-user storage on the Web](https://remotestorage.io/)
+    - [defuse/php-encryption: Simple Encryption in PHP.](https://github.com/defuse/php-encryption)
+    - Real world examples / Inspiration / References
+        - Testing
+            - [zendesk/cross-storage: Cross domain local storage, with permissions](https://github.com/zendesk/cross-storage#tests)
+        - Deploy to Google Cloud
+            - [Camlistore on Google Cloud](https://camlistore.org/launch/)
+        - [dwyl/learn-to-send-email-via-google-script-html-no-server](https://github.com/dwyl/learn-to-send-email-via-google-script-html-no-server)
+        - Java
+            - [hash.to - url shortener](http://hash.to/index.jsp)
+                - Technologies: Java, Hibernate, Struts2, Urlrewrite, MySQL
