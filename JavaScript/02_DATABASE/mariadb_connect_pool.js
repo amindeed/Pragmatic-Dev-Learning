@@ -27,7 +27,7 @@ const pool = mariadb.createPool({
 pool.getConnection()
     .then(conn => {
         console.log('Connected to MariaDB.');
-        conn.query('SELECT * FROM ' + process.env.DB_TABLE)
+        conn.query('SELECT * FROM ' + process.env.DB_TABLE + ' WHERE first_name="Bernita"')
             .then(rows => {
                 conn.release();
                 console.log('Connection to MariaDB released to pool.');

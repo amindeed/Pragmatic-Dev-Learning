@@ -33,7 +33,7 @@ pool.connect((err, client, release) => {
 
   console.log('Connected to PostgreSQL Database.');
 
-  client.query('SELECT * FROM public.' + process.env.DB_TABLE, (err, result) => {
+  client.query('SELECT * FROM ' + process.env.DB_TABLE + ' WHERE first_name=\'Bernita\'', (err, result) => {
 
     var idleClientsBeforeRelease = pool.idleCount;
     release();

@@ -25,7 +25,7 @@ client.connect(function(err) {
     }
     console.log('Connected to PostgreSQL DB');
 
-    client.query('SELECT * FROM public.' + process.env.DB_TABLE, (err, res) => {
+    client.query('SELECT * FROM ' + process.env.DB_TABLE + ' WHERE first_name = \'Bernita\'', (err, res) => {
         if (err) {
           console.error(err.message);
           client.end(() => {

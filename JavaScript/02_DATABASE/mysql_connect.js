@@ -27,7 +27,7 @@ connection.connect(function(err) {
   }
   console.log('Connected to MySQL DB');
 
-  connection.query('SELECT * FROM ' + process.env.DB_TABLE, function(err, rows, fields) {
+  connection.query('SELECT * FROM ' + process.env.DB_TABLE + ' WHERE first_name="Bernita"', function(err, rows, fields) {
       if (err) {
         console.error(err.message);
         connection.end(() => {

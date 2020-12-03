@@ -31,7 +31,7 @@ pool.getConnection(function(err, connection) {
 
     console.log('Connected to MySQL Database.');
 
-    connection.query('SELECT * FROM ' + process.env.DB_TABLE, function(error, results, fields) {
+    connection.query('SELECT * FROM ' + process.env.DB_TABLE + ' WHERE first_name="Bernita"', function(error, results, fields) {
 
         connection.release();
 

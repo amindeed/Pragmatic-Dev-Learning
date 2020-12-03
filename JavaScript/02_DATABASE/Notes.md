@@ -114,3 +114,10 @@ db.learn_dev_collection.insert([
 * [Insert Documents — MongoDB Manual](https://docs.mongodb.com/manual/tutorial/insert-documents/)
 * [MongoDB CRUD Operations — MongoDB Manual](https://docs.mongodb.com/manual/crud/)
 * [MongoDB and Node.js Tutorial - CRUD Operations](https://developer.mongodb.com/quickstart/node-crud-tutorial)
+* [Manage Users and Roles — MongoDB Manual](https://docs.mongodb.com/manual/tutorial/manage-users-and-roles/#grant-a-role)
+* [MongoDB should I put users in admin db or local db - Stack Overflow](https://stackoverflow.com/questions/49445201/mongodb-should-i-put-users-in-admin-db-or-local-db)
+* [node.js - Can i use a single user to connect different databases in MongoDB? - Stack Overflow](https://stackoverflow.com/questions/51151379/can-i-use-a-single-user-to-connect-different-databases-in-mongodb)
+* [How to Create a Database in MongoDB | MongoDB](https://www.mongodb.com/basics/create-database#create-a-db-with-CLI) :
+    > - A database is created when you try to use it with the `use` command : `use myshinynewdb`
+    > - The database isn’t fully created until you put something into it : `db.user.insert({name: "Ada Lovelace", age: 205})`
+    >	- Collections are created just like databases, by referring to them in a command. `user` here is a collection in the `myshinynewdb` database.

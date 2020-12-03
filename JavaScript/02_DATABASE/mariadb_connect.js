@@ -22,7 +22,7 @@ mariadb.createConnection({
     })
     .then(conn => {
         console.log('Connected to MariaDB.');
-        conn.query('SELECT * FROM ' + process.env.DB_TABLE)
+        conn.query('SELECT * FROM ' + process.env.DB_TABLE + ' WHERE first_name="Bernita"')
             .then(rows => {
                 console.log(rows);
                 conn.end();
