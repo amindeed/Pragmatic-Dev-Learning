@@ -1,5 +1,6 @@
 var http = require("http");
 var url = require("url");
+const querystring = require('querystring');
 
 const hostname = "127.0.0.1";
 const port = 8888;
@@ -11,7 +12,10 @@ function start(route) {
       var pathname = url.parse(request.url).pathname;
       console.log("Request for " + pathname + " received.");
 
-      route(response, pathname);
+      var reqQuery = url.parse(request.url).query;
+      var queryObj = querystring.parse(reqQuery);
+
+      route(response, queryObj, pathname);
 
     })
     .listen(port, hostname, () => {
@@ -36,4 +40,20 @@ url.parse(request.url) =  Url {
   path: '/amindeed/kadeery?foo=bar&hello=world',
   href: 'https://localhost:8888/amindeed/kadeery?foo=bar&hello=world'
 }
+*/
+
+/*
+                               url.parse(string).query
+                                           |
+           url.parse(string).pathname      |
+                       |                   |
+                       |                   |
+                     ------ -------------------
+http://localhost:8888/start?foo=bar&hello=world
+                                ---       -----
+                                 |          |
+                                 |          |
+              querystring(string)["foo"]    |
+                                            |
+                         querystring(string)["hello"]
 */

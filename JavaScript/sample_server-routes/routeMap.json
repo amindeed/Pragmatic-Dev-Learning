@@ -1,0 +1,9 @@
+{
+  "": { "filePath": "./home.html", "contentType": "static" },
+  "/": { "filePath": "./home.html", "contentType": "static" },
+  "/about": { "filePath": "./pages/about.html", "contentType": "static" },
+  "/services": { "filePath": "./pages/services.html", "contentType": "static" },
+  "/data": { "filePath": "./pages/data.mustache", "contentType": "template" },
+  "/404": { "filePath": "./pages/404.html", "contentType": "static" },
+  "/missing": { "filePath": "./pages/missingFile.html", "contentType": "static" }
+}
