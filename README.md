@@ -1,13 +1,13 @@
 # Pragmatic Dev Learning
 
-This project suggests a pragmatic approach to learning to code by exploring two parallel paths :
+The **Pragmatic Dev Learning** project suggests a pragmatic approach to learning to code by exploring two parallel paths :
 1. _“Learn It By Doing It!”_
 2. _“Learn As You Go!”_
 
 <br />
 
 - **Ideas / Philosophy / Principles / Project Motivations :**
-  - *Learning to code is more than just learning the syntax of a programming language, but it's also “less than” working on full projects.*
+  > - *Yes, learning to code is more than just learning the syntax of a programming language, but it's also “less than” working on full projects.*
 
 _For more details, check the [XMind](https://www.xmind.net/xmind8-pro/) mindmap included in this repository : [`LearnDev.xmind`](LearnDev.xmind)_
 

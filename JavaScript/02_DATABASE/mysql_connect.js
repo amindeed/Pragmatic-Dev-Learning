@@ -8,6 +8,11 @@ Connect to a MySQL/MariaDB database using the Node.js driver for MySQL :
 https://www.npmjs.com/package/mysql
 */
 
+/*
+The MySQL driver intentionally uses callbacks instead of promises :
+https://github.com/mysqljs/mysql/issues/2401#issuecomment-692042989
+*/
+
 require('dotenv').config()
 
 var mysql = require('mysql');
