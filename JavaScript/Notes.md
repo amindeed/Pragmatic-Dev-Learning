@@ -18,3 +18,8 @@
 ## ● Research and Document :
 - `'use strict';` ?
 
+## Online resources
+- Error handling
+  - [JavaScript's try-catch hid my bugs! ?](https://www.freecodecamp.org/news/javascripts-try-catch-hid-my-bugs/)
+  - [A mostly complete guide to error handling in JavaScript.](https://www.valentinog.com/blog/error/#error-handling-for-generator-functions)
+
