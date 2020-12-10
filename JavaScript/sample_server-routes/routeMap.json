@@ -1,9 +1,42 @@
 {
-  "": { "filePath": "./home.html", "contentType": "static" },
-  "/": { "filePath": "./home.html", "contentType": "static" },
-  "/about": { "filePath": "./pages/about.html", "contentType": "static" },
-  "/services": { "filePath": "./pages/services.html", "contentType": "static" },
-  "/data": { "filePath": "./pages/data.mustache", "contentType": "template" },
-  "/404": { "filePath": "./pages/404.html", "contentType": "static" },
-  "/missing": { "filePath": "./pages/missingFile.html", "contentType": "static" }
+    "": {
+        "filePath": "./home.html",
+        "type": "static",
+        "httpContentType": "text/html"
+    },
+    "/": {
+        "filePath": "./home.html",
+        "type": "static",
+        "httpContentType": "text/html"
+    },
+    "/favicon.ico": {
+        "filePath": "./favicon.ico",
+        "type": "static",
+        "httpContentType": "image/x-icon"
+    },
+    "/about": {
+        "filePath": "./pages/about.html",
+        "type": "static",
+        "httpContentType": "text/html"
+    },
+    "/services": {
+        "filePath": "./pages/services.html",
+        "type": "static",
+        "httpContentType": "text/html"
+    },
+    "/data": {
+        "filePath": "./pages/data.mustache",
+        "type": "template",
+        "httpContentType": "text/html"
+    },
+    "/404": {
+        "filePath": "./pages/404.html",
+        "type": "static",
+        "httpContentType": "text/html"
+    },
+    "/missing": {
+        "filePath": "./pages/missingFile.html",
+        "type": "template",
+        "httpContentType": "text/html"
+    }
 }

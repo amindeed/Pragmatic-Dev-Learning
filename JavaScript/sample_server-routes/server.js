@@ -12,10 +12,10 @@ function start(route) {
       var pathname = url.parse(request.url).pathname;
       console.log("Request for " + pathname + " received.");
 
-      var reqQuery = url.parse(request.url).query;
-      var queryObj = querystring.parse(reqQuery);
+      var urlQueryString = url.parse(request.url).query;
+      var parsedQueryString = querystring.parse(urlQueryString);
 
-      route(response, queryObj, pathname);
+      route(response, parsedQueryString, pathname);
 
     })
     .listen(port, hostname, () => {
