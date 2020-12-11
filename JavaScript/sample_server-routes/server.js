@@ -15,7 +15,7 @@ function start(route) {
       var urlQueryString = url.parse(request.url).query;
       var parsedQueryString = querystring.parse(urlQueryString);
 
-      route(response, parsedQueryString, pathname);
+      route(response, pathname, parsedQueryString);
 
     })
     .listen(port, hostname, () => {

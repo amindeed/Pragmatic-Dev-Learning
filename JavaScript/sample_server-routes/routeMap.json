@@ -22,6 +22,15 @@
     "/services": {
         "filePath": "./pages/services.html",
         "type": "static",
+        "httpContentType": "text/html",
+        "redirect" : {
+            "statusCode": 302,
+            "redirectPath": "/products"
+        }
+    },
+    "/products": {
+        "filePath": "./pages/products.html",
+        "type": "static",
         "httpContentType": "text/html"
     },
     "/data": {

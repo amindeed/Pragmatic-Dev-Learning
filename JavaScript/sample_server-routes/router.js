@@ -3,14 +3,16 @@ const fs = require("fs");
 const mustache = require("mustache");
 //var appLog = require("./appLog");
 
-function route(res, parsedUrlQueryString, pathname) {
+
+function route(res, pathname = "/404", parsedUrlQueryString = "", statusCode) {
     console.log(`About to route a request for ${pathname}`);
 
     // Path name without trailing slash(es)
     var pathname = pathname.replace(/\/+$/, "");
 
-    // 'parsedUrlQueryString' is provided as a Mustache template view
-    renderHtml(res, parsedUrlQueryString, routeMap[pathname], (err) => {
+    // 'parsedUrlQueryString' is provided as a Mustache template view.
+    // Is is correct to provide an error callback function as an argument?
+    renderHtml(res, routeMap[pathname], parsedUrlQueryString, statusCode, (err) => {
         if (err) {
             console.error(err.message);
             notFound(res);
@@ -20,9 +22,21 @@ function route(res, parsedUrlQueryString, pathname) {
 }
 
 
-function renderHtml(res, templateView, content = routeMap["/404"]) {
-    if (content.type == "static") {
-        res.sendstatusCode = 200;
+function renderHtml(res, content = routeMap["/404"], queryStringAsTemplateView = "", httpStatusCode) {
+    if (content.redirect) {
+        console.log('URL should be redirected');
+        //res.statusCode = content.redirect.statusCode;
+        // (1) Rewrite URL ?
+        // (2) Full redirect URL, or just a path ?
+        var newPathname = content.redirect.redirectPath;
+        var redirectStatusCode = content.redirect.statusCode;
+        route(res, newPathname, queryStringAsTemplateView, redirectStatusCode);
+    } else if (content.type == "static") {
+        if (content === routeMap["/404"]) { 
+            notFound(res);
+            return; 
+        }
+        res.statusCode = httpStatusCode?httpStatusCode:200;
         res.setHeader("Content-Type", content.httpContentType);
         sendStaticContent(content.filePath, res, (err) => {
             if (err) {
@@ -32,7 +46,7 @@ function renderHtml(res, templateView, content = routeMap["/404"]) {
             }
         });
     } else if (content.type == "template") {
-        res.sendstatusCode = 200;
+        res.statusCode = httpStatusCode?httpStatusCode:200;
         res.setHeader("Content-Type", content.httpContentType);
         fs.readFile( content.filePath, "utf-8", (err, readData) => {
             if (err) {
@@ -40,7 +54,7 @@ function renderHtml(res, templateView, content = routeMap["/404"]) {
                 notFound(res);
                 return;
             }
-            res.write( mustache.render( readData, templateView ) );
+            res.write( mustache.render( readData, queryStringAsTemplateView ) );
             res.end();
         });
     } else {
