@@ -8,6 +8,7 @@ The **Pragmatic Dev Learning** project suggests a pragmatic approach to learning
 
 - **Ideas / Philosophy / Principles / Project Motivations :**
   > - *Yes, learning to code is more than just learning the syntax of a programming language, but it's also “less than” working on full projects.*
+  > - *A rather “non-linear” way of learning to code.*
 
 _For more details, check the [XMind](https://www.xmind.net/xmind8-pro/) mindmap included in this repository : [`LearnDev.xmind`](LearnDev.xmind)_
 

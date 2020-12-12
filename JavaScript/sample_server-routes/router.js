@@ -24,11 +24,9 @@ function route(res, pathname = "/404", parsedUrlQueryString = "", statusCode) {
 
 function renderHtml(res, content = routeMap["/404"], queryStringAsTemplateView = "", httpStatusCode) {
     if (content.redirect) {
-        console.log('URL should be redirected');
-        //res.statusCode = content.redirect.statusCode;
         // (1) Rewrite URL ?
         // (2) Full redirect URL, or just a path ?
-        var newPathname = content.redirect.redirectPath;
+        var newPathname = content.redirect.redirectLocation;
         var redirectStatusCode = content.redirect.statusCode;
         route(res, newPathname, queryStringAsTemplateView, redirectStatusCode);
     } else if (content.type == "static") {

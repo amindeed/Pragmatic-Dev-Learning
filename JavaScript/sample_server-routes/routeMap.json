@@ -25,7 +25,8 @@
         "httpContentType": "text/html",
         "redirect" : {
             "statusCode": 302,
-            "redirectPath": "/products"
+            "redirectLocation": "/products",
+            "urlRewrite": false
         }
     },
     "/products": {
