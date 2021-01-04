@@ -25,6 +25,8 @@ Learn as you go, from recommended books, tutorials and official documentations :
 ## [DRAFT] Ideas / Philosophy / Principles / Project Motivations :
   > - *Yes, learning to code is more than just learning the syntax of a programming language, but it's also “less than” working on full projects.*
   > - *A rather “non-linear” way of learning to code.*
+  > - *Addressed mainly to people who have had a hard time finding learning resources beyond beginners' books that feel too easy and boring for them.*
+  > - *If you think something is not necessary, just skip it!*
   > - *It doesn't matter whether you solve a problem natively (i.e. using the programing language's native/built-in tooling) or using a third-party library/tool/module/package, as long as:*
   > 	- *it is recommended by professional developers (or at least, not recommended against)*
   > 	- *you have the right to use it (you are aware of the license, costs...etc.)*
