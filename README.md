@@ -1,8 +1,9 @@
 # Pragmatic Dev Learning
 
 The **Pragmatic Dev Learning** project suggests a pragmatic approach to learning to code by exploring two parallel paths :
-1. _“Learn It By Doing It!”_
-2. _“Learn As You Go!”_
+
+1. [_“Learn It By Doing It!”_](#1-learn-it-by-doing-it)
+2. [_“Learn As You Go!”_](#2-learn-as-you-go)
 
 <br />
 
@@ -10,13 +11,13 @@ _For more details, check the [XMind](https://www.xmind.net/xmind8-pro/) mindmap 
 
 ## 1. _“Learn It By Doing It!”_
 
-Learn as you progressively develop a set of reusable code snippets addressing common technical problems —*as technical objectives*— that make up the building blocks of modern applications. _(This sub-map is still actively revised)_ :
+Learn as you progressively develop a set of reusable code snippets addressing common technical problems —*as technical objectives*— that make up the building blocks of most applications. _(This sub-map is still actively revised)_ :
 
 ![Learn_It_By_Doing_It](assets/Learn_It_By_Doing_It.png)
 
 ## 2. _“Learn As You Go!”_
 
-Learn as you go, from recommended books, tutorials and official documentations :
+Learn as you go, from recommended books, tutorials and official documentations.  _(This sub-map is occasionally revised)_  :
 
 ![Learn_As_You_Go](assets/Learn_As_You_Go.png)
 
@@ -37,3 +38,4 @@ Learn as you go, from recommended books, tutorials and official documentations :
   > 	- *it makes one or both of the following :*
   > 		- *app's soucre code shorter and/or more easily maintainable*
   > 		- *app's runtime significantly (or at least reasonably) better*
+  > - *I'm wondering if we can focus only on core technical skills, at most with some concepts related to collaborative development like Git workflows, and leave everything else, like soft skills, team playing...etc.*
