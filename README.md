@@ -25,7 +25,7 @@ Learn as you go, from recommended books, tutorials and official documentations. 
 
 ## [DRAFT] Ideas / Philosophy / Principles / Project Motivations :
   > - *Yes, learning to code is more than just learning the syntax of a programming language, but it's also “less than” working on full projects.*
-  > - *A rather “non-linear” way of learning to code.*
+  > - *Interestingly, you'll often find yourself coming back here with new code snippets as you work on other projects. **Pragmatic Dev Learning** is a rather “non-linear” way of learning to code, encouraging everyone to develop bite-sized pieces of code addressing a neatly selected set of technical objectives. It should serve as an assessment of your learning progress; you don't have to be committed to a specific pace or method.*
   > - *Addressed mainly to people who have had a hard time finding learning resources beyond beginners' books that feel too easy and boring for them.*
   > - *If you think something is not necessary, just skip it!*
   > - *It doesn't matter whether you solve a problem natively (i.e. using the programing language's native/built-in tooling) or using a third-party library/tool/module/package, as long as:*
@@ -39,5 +39,6 @@ Learn as you go, from recommended books, tutorials and official documentations. 
   > 		- *app's source code shorter and/or more easily maintainable*
   > 		- *app's runtime significantly (or at least reasonably) better*
   > - *I wonder if I would just focus on core technical skills, at most with some concepts related to collaborative development like Git workflows; and leave everything else, like soft skills, team playing...etc. In other words, the main focus of the project should be **helping people to learn to code**, and **not** necessarily **helping them land dev jobs**, because I'm not qualified for it.*
+  > - _..._
   > - ***For inspiration:***
   > 	- *[The "Rationale" section of the `django-allauth` project README](https://github.com/pennersr/django-allauth/tree/e12112d03342b70a421aeebd4b6eecc7a7a211e8#rationale)*
