@@ -1,16 +1,7 @@
 
-# General Notes
-
-- Project choices are pretty opinionated
-- “Pragmatic Learning” covers the technical skills that make you immediatly productive, that let you ship a working/useful code, serving a specific need, no matter how simple/basic it is.
-- At the end of each stage of the “Pragmatic Learning” program, we should get a working software prototype with reusable code. That would serve as a technical building block for larger projects.
-- Ideally, we should be building and enhancing one final software product, as we go through the “Pragmatic Learning” program.
-- It wasn't actually intentional, but now that I've noticed it, I'm glad that this project somehow embraces the "continuous delivery" approach..
-- How to make your web app work offline - https://news.ycombinator.com/item?id=22517162
-- The goal is basically to create a set of reusable code snippets.
-
 ## Misc. notes
 
+- How to make your web app work offline - https://news.ycombinator.com/item?id=22517162
 - [Note moved from _Gmail AutoResponder_ repository ] I have given up the idea of making a "client-only app" and interact directly with Apps Script backend with a plain HTML5 file that could even be stored locally, as it seems that it's a good practice to implement a minimal sever-side authentication logic [https://stackoverflow.com/q/18280827/3208373] , [https://security.stackexchange.com/a/52886/37487]
     - "...the JavaScript app is just plain old HTML and JS served from the same server to avoid XSS issues." [source](https://security.stackexchange.com/questions/19620/securing-a-javascript-single-page-app-with-restful-backend#comment32548_19625)
     - Pros and some Cons of server side rendering (SSR). Topic focuses a little bit on Vue.JS, but it's fairly generic : [Vue SSR Guide | Vue.js Server-Side Rendering Guide](https://ssr.vuejs.org/#what-is-server-side-rendering-ssr)

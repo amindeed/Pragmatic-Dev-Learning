@@ -7,7 +7,7 @@ The **Pragmatic Dev Learning** project suggests a pragmatic approach to learning
 
 The **“Learn It By Doing It!”** map consists basically of progressive units of knowledge and problems you can fairly easily search and find answers to. 
 
-For example, you could be productive enough with just basic understanding of JavaScript's general syntax and functions. But, as you start using third-party libraries or try to implement some Object-Oriented concepts, you might find it challenging to make your code work if you don't understand the asynchronous and prototype-based nature of the language. That's where the **“Learn As You Go!”** map could come up quite handy, by showing you your *“unknown unknows”* to let you start searching and building up you knowledge, *hopefully* in a gradual and non-distracting way.
+For example, you could be productive enough with just basic understanding of JavaScript's general syntax and functions. But, as you start using third-party libraries or try to implement some Object-Oriented concepts, you might find it challenging to make your code work if you don't understand the asynchronous and prototype-based nature of the language. That's where the **“Learn As You Go!”** map could come up quite handy, by showing you your *“unknown unknows”* to let you start searching and building up your knowledge, *hopefully* in a gradual and non-distracting way.
 
 
 _For more details, check the [XMind](https://www.xmind.net/xmind8-pro/) mindmap included in this repository : [`LearnDev.xmind`](LearnDev.xmind)_
@@ -44,6 +44,9 @@ Learn as you go, from recommended books, tutorials and official documentations. 
 		- *app's source code shorter and/or more easily maintainable*
 		- *app's runtime significantly (or at least reasonably) better*
 - *The project will focus on core technical skills, at most with some concepts related to collaborative development like Git workflows; and leave everything else, like soft skills, team playing...etc. In other words, the main focus will be **helping people to learn to code**, and **not** necessarily **helping them land dev jobs**, because there are plenty of amazing resources and qualified communities addressing that specific topic.*
-- _..._
+- *Project/Technologies choices are pretty opinionated*
+- *“Pragmatic Dev Learning” covers the technical skills that make you immediately productive, that let you ship working/useful code, serving a specific need, no matter how simple/basic it is.*
+- *At the end of each stage of the “Pragmatic Dev Learning” program, we should get a working software prototype with reusable code. This code would serve as a technical building block for larger projects. Ideally, we should be building and enhancing one final software product, as we go through the program, and thus take a CI/CD approach.*
+- ***Collected Misc. Notes:** [`Notes.md`](/Notes.md)*
 - ***For inspiration:***
 	- *[The "Rationale" section of the `django-allauth` project README](https://github.com/pennersr/django-allauth/tree/e12112d03342b70a421aeebd4b6eecc7a7a211e8#rationale)*
