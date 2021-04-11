@@ -12,6 +12,10 @@ For example, you could be productive enough with just basic understanding of Jav
 
 _For more details, check the [XMind](https://www.xmind.net/xmind8-pro/) mindmap included in this repository : [`LearnDev.xmind`](LearnDev.xmind)_
 
+<p align="center">
+  <a href="LearnDev.xmind"><img src="assets/LearnDev_map_thumb.png" alt="Pragmatic Dev Learning Mindmap"/></a>
+</p>
+
 ## 1. _“Learn It By Doing It!”_
 
 Learn as you progressively develop a set of reusable ***snippets*** and ***boilerplate code*** addressing common technical problems —*referred to as **technical objectives***— that make up the building blocks of most applications. _(This sub-map is still actively revised)_ :
