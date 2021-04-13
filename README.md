@@ -16,9 +16,39 @@ _For more details, check the [XMind](https://www.xmind.net/xmind8-pro/) mindmap 
 
 ## 1. _“Learn It By Doing It!”_
 
-Learn as you progressively develop a set of reusable ***snippets*** and ***boilerplate code*** addressing common technical problems —*referred to as **technical objectives***— that make up the building blocks of most applications. _(This sub-map is still actively revised)_ :
+Learn as you progressively develop a set of reusable ***snippets*** and ***boilerplate code*** addressing common technical problems —*referred to as **technical objectives***— that make up the building blocks of most applications. 
 
-![Learn_It_By_Doing_It](assets/Learn_It_By_Doing_It.png)
+*The following sub-map and (sample) table are still actively revised.*
+<br><br>
+
+![ Learn_It_By_Doing_It](assets/Learn_It_By_Doing_It.png)
+<br><br>
+🌍`JavaScript` 🐍`Python` ⏳`Unfinished`
+|                    | 📝<br>Code | 🗹<br>`DEBUG` | 🗹<br>`ERRORS` | 🗹<br>`REGEX` | 🗹<br>`PARSE` | 🗹<br>`HTTP REQ` | 🗹<br>`EVENTS ASYNC` | 🗹<br>`UNIT TEST` | 🗹<br>`MAKE LIB` | 🗹<br>`FRAMEWORK` |
+|:------------------:|:------:|:---------------:|:----------------:|:---------------:|:---------------:|:------------------:|:----------------------:|:-------------------:|:------------------:|:-------------------:|
+| **`FORM`**     | 🌍<sup>⏳</sup><br>🐍   |               |                |               |               |                  |                      |                   |                  |                   |
+| **`DATABASE`** |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`HTTP SVR`** |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`USE API`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`EMAILS`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`AUTH HTTP BASIC`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`AUTH MUTUAL SSL`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`AUTH FORM BASED`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`AUTH OAUTH JWT`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`CREATE API`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`JAM`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`PWA`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`VALID INPUT`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`BIN FILES`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`STATIC MEDIA`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`LIVE MEDIA`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`COMPRESS`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`CRYPTO`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`PROTO LIBS`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`ADV CONNECT SVCS`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`ADV AUTH`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`IPC STREAMS`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
+<br>
 
 ## 2. _“Learn As You Go!”_
 
