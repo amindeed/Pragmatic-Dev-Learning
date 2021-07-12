@@ -24,10 +24,10 @@ Learn as you progressively develop a set of reusable ***snippets*** and ***boile
 ![ Learn_It_By_Doing_It](assets/Learn_It_By_Doing_It.png)
 <br><br>
 🌍`JavaScript` 🐍`Python` ⏳`Unfinished`
-|                    | 📝<br>Code | 🗹<br>`DEBUG` | 🗹<br>`ERRORS` | 🗹<br>`REGEX` | 🗹<br>`PARSE` | 🗹<br>`HTTP REQ` | 🗹<br>`EVENTS ASYNC` | 🗹<br>`UNIT TEST` | 🗹<br>`MAKE LIB` | 🗹<br>`FRAMEWORK` |
+|                    | 📝<br>Code | 🗹<br>`DEBUG` | 🗹<br>`ERRORS` | 🗹<br>`REGEX` | 🗹<br>`PARSE` | 🗹<br>`HTTP` | 🗹<br>`ASYNC` | 🗹<br>`TEST` | 🗹<br>`MOD` | 🗹<br>`FRAMEWORK` |
 |:------------------:|:------:|:---------------:|:----------------:|:---------------:|:---------------:|:------------------:|:----------------------:|:-------------------:|:------------------:|:-------------------:|
 | **`FORM`**     | 🌍<sup>⏳</sup><br>🐍   |               |                |               |               |                  |                      |                   |                  |                   |
-| **`DATABASE`** |      |               |                |               |               |                  |                      |                   |                  |                   |
+| **`DB`** |      |               |                |               |               |                  |                      |                   |                  |                   |
 | **`HTTP SVR`** |      |               |                |               |               |                  |                      |                   |                  |                   |
 | **`USE API`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
 | **`EMAILS`**             |      |               |                |               |               |                  |                      |                   |                  |                   |
@@ -79,6 +79,6 @@ Learn as you go, from recommended books, tutorials and official documentations. 
 - *Project/Technologies choices are pretty opinionated*
 - *“Pragmatic Dev Learning” covers the technical skills that make you immediately productive, that let you ship working/useful code, serving a specific need, no matter how simple/basic it is.*
 - *At the end of each stage of the “Pragmatic Dev Learning” program, we should get a working software prototype with reusable code. This code would serve as a technical building block for larger projects. Ideally, we should be building and enhancing one final software product, as we go through the program, and thus take a CI/CD approach.*
-- ***Collected Misc. Notes:** [`Notes.md`](/Notes.md)*
+- ***Collected Misc. Notes:** [`Notes.md`](Notes.md)*
 - ***For inspiration:***
 	- *[The "Rationale" section of the `django-allauth` project README](https://github.com/pennersr/django-allauth/tree/e12112d03342b70a421aeebd4b6eecc7a7a211e8#rationale)*
